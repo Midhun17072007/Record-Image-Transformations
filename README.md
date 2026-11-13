@@ -72,10 +72,10 @@ Read the input image in color mode.
 ##  Program
 
 ### Developed By:
-**Name:** ARSHATH HUSSAIN I
+**Name:** MIDHUN S
 
 ### Register No:
-212224230022
+212224230158
 
 ---
 
@@ -86,14 +86,15 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('istockphoto-472018064-612x612.jpg') 
+image = cv2.imread('Qno. 1.jpg') 
 
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB)) 
 plt.title("Original Image")  
 plt.axis('off') 
 ```
 
-<img width="266" height="411" alt="download" src="https://github.com/user-attachments/assets/2b691d62-eea9-4dbe-9fb9-8eaa8934bc48" />
+<img width="563" height="342" alt="image" src="https://github.com/user-attachments/assets/4d567fe7-fb17-4050-81d1-c5caebfc9ed4" />
+
 
 
 ```
@@ -105,7 +106,8 @@ plt.imshow(cv2.cvtColor(translated_image, cv2.COLOR_BGR2RGB))
 plt.title("Translated Image")  
 plt.axis('off')
 ```
-<img width="266" height="411" alt="download" src="https://github.com/user-attachments/assets/3343a461-4bef-4b66-a0f9-735ea13bfe15" />
+<img width="562" height="355" alt="image" src="https://github.com/user-attachments/assets/ff228856-a875-4e91-992b-1e976466fad0" />
+
 
 ```
 fx, fy = 5.0, 2.0  
@@ -114,7 +116,8 @@ plt.imshow(cv2.cvtColor(scaled_image, cv2.COLOR_BGR2RGB))
 plt.title("Scaled Image")  
 plt.axis('off')
 ```
-<img width="515" height="339" alt="download" src="https://github.com/user-attachments/assets/5dc1e62b-edde-4c6f-acbf-e60004083458" />
+<img width="621" height="212" alt="image" src="https://github.com/user-attachments/assets/11d13a78-190b-4119-826c-70bb8882003e" />
+
 
 ```
 # Step 4: Image Shearing
@@ -124,7 +127,8 @@ plt.imshow(cv2.cvtColor(sheared_image, cv2.COLOR_BGR2RGB))
 plt.title("Sheared Image")  # Set title
 plt.axis('off')
 ```
-<img width="266" height="411" alt="download" src="https://github.com/user-attachments/assets/715ed3d8-7559-4374-9014-3372e1356a45" />
+<img width="606" height="387" alt="image" src="https://github.com/user-attachments/assets/27807a79-b18e-4c23-b76e-12db47091200" />
+
 
 ```
 # Step 5: Image Reflection
@@ -133,7 +137,8 @@ plt.imshow(cv2.cvtColor(reflected_image, cv2.COLOR_BGR2RGB))  # Display the refl
 plt.title("Reflected Image")  # Set title
 plt.axis('off')
 ```
-<img width="266" height="411" alt="download" src="https://github.com/user-attachments/assets/2a8294a3-5525-45a9-8970-2f7cb976090a" />
+<img width="588" height="388" alt="image" src="https://github.com/user-attachments/assets/2b52363a-61fb-4cb1-927e-0ff15f222caf" />
+
 
 ```
 # Step 6: Image Rotation
@@ -147,7 +152,7 @@ plt.imshow(cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB))
 plt.title("Rotated Image")  
 plt.axis('off')
 ```
-<img width="266" height="411" alt="download" src="https://github.com/user-attachments/assets/5c614ae3-e315-4a9a-befd-2d6ac320435e" />
+<img width="612" height="378" alt="image" src="https://github.com/user-attachments/assets/f91c2b9e-16c0-4433-b322-0bdb8ff85de7" />
 
 ```
 # Step 7: Image Cropping
@@ -159,7 +164,7 @@ plt.imshow(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))
 plt.title("Cropped Image")  # Set title
 plt.axis('off')
 ```
-<img width="512" height="411" alt="download" src="https://github.com/user-attachments/assets/02ca5c58-6ec7-4ca9-b31b-3a51141a44e1" />
+<img width="607" height="495" alt="image" src="https://github.com/user-attachments/assets/8f71eccf-505f-45da-bd2d-c84cd7875d7e" />
 
 
 ##  Result
